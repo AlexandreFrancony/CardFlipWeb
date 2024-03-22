@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #d4e671, #18d476);
+    background: linear-gradient(135deg, #662D8C , #ED1E79);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -17,9 +17,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100%;
-    min-width: 1000px;
 
     color: white;
     font-size: 1.5rem;
