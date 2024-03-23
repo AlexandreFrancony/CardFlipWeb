@@ -1,13 +1,12 @@
-var cards = document.querySelectorAll('.card');
-console.log(cards);
+var jsFlips = document.querySelectorAll('.js-hover-flip');
 
 if (window.innerWidth >= 768) {
-    cards.forEach(card => {
-        card.addEventListener('mouseenter', () => {
-            card.classList.add('flip');
+    jsFlips.forEach(jsFlip => {
+        jsFlip.addEventListener('mouseenter', () => {
+            jsFlip.querySelector('.card').classList.add('flip');
         });
-        card.addEventListener('mouseleave', () => {
-            card.classList.remove('flip');
+        jsFlip.addEventListener('mouseleave', () => {
+            jsFlip.querySelector('.card').classList.remove('flip');
         });
     });
 }
